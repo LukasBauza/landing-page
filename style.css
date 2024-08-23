@@ -1,0 +1,38 @@
+body {
+    margin: 0px;
+}
+
+.content-padding {
+    padding-left: 144px;
+    padding-right: 144px;
+}
+
+.header {
+    background: #1F2937;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.header .links {
+    list-style-type: none;
+    padding: 0px;
+
+    a {
+        font-size: 18px;
+        color: #E5E7EB;
+        text-decoration: none;
+    }
+
+    display: flex;
+    gap: 16px;
+
+}
+
