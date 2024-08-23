@@ -2,37 +2,69 @@ body {
     margin: 0px;
 }
 
-.content-padding {
-    padding-left: 144px;
-    padding-right: 144px;
-}
+.content-padding { padding-left: 144px; padding-right: 144px; }
 
 .header {
     background: #1F2937;
-    
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
 
-.header .logo {
-    font-size: 24px;
-    font-weight: bold;
-    color: #F9FAF8;
-}
-
-.header .links {
-    list-style-type: none;
-    padding: 0px;
-
-    a {
-        font-size: 18px;
-        color: #E5E7EB;
-        text-decoration: none;
+    .logo {
+        font-size: 24px;
+        font-weight: bold;
+        color: #F9FAF8;
     }
 
-    display: flex;
-    gap: 16px;
+    .links {
+        list-style-type: none;
+        padding: 0px;
+        display: flex;
+        gap: 16px;
 
+        a {
+            font-size: 18px;
+            color: #E5E7EB;
+            text-decoration: none;
+        }
+    }
+}
+
+.hero {
+    background: #1F2937;
+    display:flex;
+    padding-top: 74px;
+    padding-bottom: 74px;
+    gap: 36px;
+
+    /*left side*/
+    .left {
+        display: flex;
+        flex-direction: column;
+        .title {
+            font-size: 48px;
+            font-weight: bolder;
+            color: #F9FAF8;
+            margin: 0px;
+        }
+
+        .paragraph { color: #E5E7EB }
+
+        button {
+            font-weight: bold;
+            color: #F9FAF8;
+            background: #3882F6;
+            padding: 10px 20px 10px 20px;
+            border: none;
+            border-radius: 8px;
+        }
+    }
+
+    /*right side*/
+    img {
+        width: 400px;
+        height: 200px;
+        background: gray;
+    }
 }
 
