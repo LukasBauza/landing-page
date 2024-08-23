@@ -2,7 +2,7 @@ body {
     margin: 0px;
 }
 
-.content-padding { padding-left: 144px; padding-right: 144px; }
+.content-padding { padding-left: 15%; padding-right: 15%; }
 
 .header {
     background: #1F2937;
